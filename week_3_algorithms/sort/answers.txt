@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: Bubble sort is fast in an already sorted .txt file unlike selection sort.
+
+sort2 uses: merge sort
+
+How do you know?: Merge sort is the fastest when it comes to sorting a big amount of data in random positions.
+
+sort3 uses: selection sort
+
+How do you know?: Selection sort takes the slowest to sort an already sorted .txt file because it would needed to check each and every number first before printing.
