@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>What is the meaning of life?</h3>
+                <h4 id="txt-result1"></h4>
+                <button id="btn-correct-choice">It depends on the person</button>
+                <button id="btn-wrong-choice-1">To be happy.</button>
+                <button id="btn-wrong-choice-2">42</button>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>Who is the teacher of CS50?</h3>
+                <h4 id="txt-result2"></h4>
+                <input type="text" id="input-answer" oninput="this.value = this.value.toUpperCase();">
+                <button id="btn-submit">Submit</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

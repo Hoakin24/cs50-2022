@@ -1,0 +1,28 @@
+footer
+{
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: white;
+}
+
+.content
+{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.game
+{
+    padding-bottom: 800px;
+}
+
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.btns
+{
+    width: 200px;
+}
